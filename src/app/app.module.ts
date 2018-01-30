@@ -1,11 +1,11 @@
+import {NgModule} from '@angular/core';
+import {FormsModule} from '@angular/forms';
 import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {FormsModule} from '@angular/forms';
-import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {MaterialModule} from './material/material.module';
 import {HomePageComponent} from './home-page/home-page.component';
+import {MaterialModule} from './material/material.module';
 import {routingModule} from './routing.module';
 
 @NgModule({
@@ -22,4 +22,5 @@ import {routingModule} from './routing.module';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
